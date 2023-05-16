@@ -1,0 +1,97 @@
+img{
+    height: 200px;
+    width: 200px;
+}
+.onethird{
+    float: left;
+    width: 30%;
+    padding-left: 2em;
+    padding-right: 2em;
+    margin: auto;
+}
+.onehalf {
+    float: left;
+    width: 50%;
+    padding-left: 2em;
+    padding-right: 2em;
+    margin: auto;
+}
+header{
+    background-color: darkgrey;
+    text-align: center;
+    padding-bottom: 1em;
+}
+:link{
+    color: aqua;
+}
+:hover{
+    color: black;
+}
+nav{
+    text-align: center;
+    background-color: antiquewhite;
+    padding-bottom: 1em;
+    font-size: large;
+    font-family: "Bodoni MT";
+    color: black;
+}
+body{
+    background-color: beige;
+    color: black;
+    background-size: auto;
+}
+.left {
+    float: left;
+    padding-right: 1em;
+}
+.right {
+    float: right;
+    padding-left: 1em;
+}
+p{
+    font-size: medium;
+    font-family: Consolas;
+}
+nav :link{
+    color: darkblue;
+}
+nav :visited{
+    color: purple;
+}
+nav :hover {
+    color: mediumpurple;
+}
+footer{
+    background-color: blanchedalmond;
+    background-size: auto;
+    text-align: center;
+    float: none;
+    width: auto;
+}
+h3{
+    background-color: burlywood;
+    background-size: auto;
+    font-family: "Dubai Light";
+    text-align: center;
+}
+#messi{
+    width: 600px;
+}
+@media screen and (min-width: 1024px){
+    header{
+        font-size: 120%;
+    }
+    nav{
+        font-weight: bold;
+    }
+    footer{
+        font-size: 120%;
+    }
+}
+h1{
+    font-family: "Sitka Banner";
+}
+section{
+    padding-left: 1em;
+    padding-right: 1em;
+}
