@@ -8,6 +8,7 @@ img{
     padding-left: 2em;
     padding-right: 2em;
     margin: auto;
+    background-color: burlywood;
 }
 .onehalf {
     float: left;
@@ -15,6 +16,7 @@ img{
     padding-left: 2em;
     padding-right: 2em;
     margin: auto;
+    background-color: burlywood;
 }
 header{
     background-color: darkgrey;
@@ -85,6 +87,12 @@ h3{
         font-weight: bold;
     }
     footer{
+        font-size: 120%;
+    }
+    section{
+        font-size: 120%;
+    }
+    h3{
         font-size: 120%;
     }
 }
